@@ -1,14 +1,14 @@
 
-.featured__categories__container {
+/* .featured__categories__container {
     height: auto;
     width: 100%;
     display: flex;
     min-height: 25rem;
     margin-top: 40px;
-    flex-wrap: wrap;
-}
+    flex-wrap: wrap; */
+/* } */
 
-.featured__categories{
+/* .featured__categories{
     height: auto;
     width: 100%;
     display: flex;
@@ -53,4 +53,4 @@
     flex-wrap: wrap;
     padding: 50px 0;
     
-}
+} */

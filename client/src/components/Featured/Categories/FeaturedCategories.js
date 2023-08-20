@@ -8,7 +8,7 @@ const Categories = () => {
     
     return ( 
         <div className="featured__categories__container">
-            <div className="featured__categories">
+            {/* <div className="featured__categories">
                 <div className="featured__categories__header">
                     <h1 className='featured__header__big'>Featured Categories </h1>
                     <div className="featured__categories__header__line"></div>
@@ -16,7 +16,7 @@ const Categories = () => {
                 <div className="featured__categories__card__container">
                     { featuredCategories.map((category) =>  <CategoryCard key={category.id} data={category}/>)}
                 </div>
-            </div>
+            </div> */}
         </div>  
      );
 }

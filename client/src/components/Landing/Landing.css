@@ -56,14 +56,14 @@
 
 .landing__image__container {
     width: 50%;
-    height: ;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .landing__image {
-    height: auto;
+    height: ;
     width: auto;
     top: 0%;
     z-index: 10;
