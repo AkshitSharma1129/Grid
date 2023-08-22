@@ -30,7 +30,9 @@ function App() {
           <Router >
             <Header />
             <Routes>
-              <Route index element={<Home />}/>
+              <Route index element={<Login />}/>
+              <Route path="/home" element={<Home />}/>
+
               <Route path="/account">
                 <Route path="me" element={<MyAccount/>}/>
                 <Route path="manage" element={<ManageAccount/>}/>
@@ -38,7 +40,7 @@ function App() {
                 <Route path="register" element={<Register />}/>
                 <Route path="*" element={<Login />}/>
               </Route>
-              <Route path="/shop" element={<Shop />}/>
+              
               <Route path="/category">
                 <Route path=":id" element={<CategoryView />}/>
               </Route>
